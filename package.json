@@ -1,0 +1,21 @@
+{
+  "name": "zdibombah",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "backend": "cd server && npm start",
+    "dev": "concurrently \"npm run backend\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmarChefrad/Tic_Tac_Toe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OmarChefrad/Tic_Tac_Toe/issues"
+  },
+  "homepage": "https://github.com/OmarChefrad/Tic_Tac_Toe#readme"
+}

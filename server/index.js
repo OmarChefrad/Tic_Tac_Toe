@@ -6,7 +6,7 @@ import { v4 as uuidv4 } from "uuid"
 import bcrypt from "bcrypt"
 
 const app = express()
-const PORT = 5000
+const PORT2 = 5000
 dotenv.config()
 
 //midleware
@@ -56,6 +56,6 @@ app.post("/login", async (req, res) => {
   }
 })
 
-app.listen(PORT, () => {
-  console.log(`Server Up running on ${PORT}`)
+app.listen(process.env.PORT || PORT2, () => {
+  console.log(`Server Up running on ${PORT2}`)
 })
